@@ -10,6 +10,7 @@ class Stack<T>{
 	private Node top;
 	
 	
+	
 	public Stack() {
 		this.top = null;
 	}
@@ -35,7 +36,6 @@ class Stack<T>{
 		} else {
 			throw new EmptyStackException();	
 		}
-
 	}
 	
 	
@@ -95,7 +95,6 @@ class Stack<T>{
 		
 		Node t = top;
 		int counter = 0;
-		
 		
 		while (t != null) {
 			counter ++;
