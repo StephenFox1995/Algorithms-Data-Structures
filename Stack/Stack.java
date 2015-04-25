@@ -1,9 +1,9 @@
 import java.util.*;
 
-class Stack {
+class Stack<T>{
 	
 	class Node {
-		int data;
+		T data;
 		Node next;
 	}
 	
@@ -16,7 +16,7 @@ class Stack {
 	
 	
 	// @param x : Integer value to push onto the stack.
-	public void push(int x) {
+	public void push(T x) {
 		Node t = new Node();
 		t.data = x;
 		t.next = top;
@@ -25,10 +25,17 @@ class Stack {
 	
 	
 	// @return int: Returns the top-most element in the stack.
-	public int pop() throws EmptyStackException {
-		int x = top.data;
-		top = top.next;
-		return x;
+	public T pop() throws EmptyStackException {
+		if (top != null) {
+			
+			T x = top.data;
+			top = top.next;
+			return x;
+		
+		} else {
+			throw new EmptyStackException();	
+		}
+
 	}
 	
 	
@@ -40,7 +47,7 @@ class Stack {
 	
 	
 	// @param x : The value in the stack to search for.
-	public boolean isMember(int x) {
+	public boolean isMember(T x) {
 		Node t = top;
 		
 		while (t != null) {
@@ -69,10 +76,14 @@ class Stack {
 	}
 	
 	
-	// @return peek
-	public int peek() {
+	
+	
+	// @return peek: Returns the element at the top of the stack.
+	public T peek() throws EmptyStackException {
 		if(top != null) {
 			return top.data;
+		} else {
+			throw new EmptyStackException();
 		}
 	}
 	
@@ -93,8 +104,6 @@ class Stack {
 		
 		return counter;
 	}
-	
-	
 	
 	
 }
