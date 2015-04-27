@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Stack<T>{
+class Stack<T> {
 	
 	class Node {
 		T data;
