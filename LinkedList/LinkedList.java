@@ -13,7 +13,7 @@ class LinkedList {
 		
 		// The head of the linked list
 		// is now the 'newNode' object we have just created.
-		this.head = newNode;
+        this.head = newNode;
 	}
 	
 	
@@ -68,11 +68,11 @@ class LinkedList {
 		Node current = this.head;
 		
 		while(current != null) {
-			result += current.toString() + ",";
+			result += current.toString() + ", ";
 			current = current.getNextNode();
 			
 		}
-		result += "}";
+		result += " }";
 		
 		return result;
 	}
