@@ -3,6 +3,29 @@ class LinkedList {
 	
 	public Node head;
 	
+
+	// Insert a new node into a SORTED LIST
+	public void insertSorted(int data) {
+
+		// node is the new element
+		Node node = new Node();
+		node.data = data;
+		// tempNode traverses through the linked list
+		Node tempNode = this.head;
+
+		while (tempNode != null) {
+			// If data of the node after tempNode is greater than the 
+			// inserted data, point the new node to that node, and point
+			// temp node to the new node.
+			if (node.data < tempNode.next.data) {
+				node.next = tempNode.next;
+				tempNode.next = node;
+			}
+
+			// Traverse to the next node on the list
+			tempNode = tempNode.next;
+		}		
+	}
 	
 	
 	// Creates a new node for the linked list.
