@@ -44,12 +44,14 @@ class Queue<T> {
 		tempNode.next = node;
 		
 		
-		if(head == node) // If the queue is empty.
-			head = tempNode; 
-		else 
-			tail.next = tempNode;
+        if(head == node)  {// If the queue is empty.
+			head = tempNode;
+        }
+        else {
+            tail.next = tempNode; // Previous tail's next property to the new tail.(tempNode)
+        }
 			
-		tail = tempNode;
+		tail = tempNode; // Our new tail is the Node we just enQueue'd (tempNode)
 	}
 	
 	
