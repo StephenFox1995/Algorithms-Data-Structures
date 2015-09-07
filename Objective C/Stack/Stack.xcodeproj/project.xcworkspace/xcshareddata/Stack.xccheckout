@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2B9825F9-9672-4FFA-BBF5-589E5DF1B137</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Stack</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>26B19015EDADAE6F4DCDCD14D7E7E8AC83F8713D</key>
+		<string>https://github.com/StephenFox1995/Common-Data-Structures</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Objective C/Stack/Stack.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>26B19015EDADAE6F4DCDCD14D7E7E8AC83F8713D</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/StephenFox1995/Common-Data-Structures</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>26B19015EDADAE6F4DCDCD14D7E7E8AC83F8713D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>26B19015EDADAE6F4DCDCD14D7E7E8AC83F8713D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Common-Data-Structures</string>
+		</dict>
+	</array>
+</dict>
+</plist>

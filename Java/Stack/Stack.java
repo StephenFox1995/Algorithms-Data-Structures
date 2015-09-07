@@ -54,7 +54,7 @@ class Stack<T> {
 			if(t.data == x) {
 				return true;
 			} else {
-				t.next = t;
+				t = t.next;
 			}
 		}
 		
